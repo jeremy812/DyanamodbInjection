@@ -1,0 +1,37 @@
+{
+    "Table": {
+       "TableArn": "arn:aws:dynamodb:us-west-2:083124926037:table/plans.items",
+       "AttributeDefinitions": [
+           {
+               "AttributeName": "key",
+               "AttributeType": "S"
+           },
+           {
+               "AttributeName": "user_id+plan_create_time",
+               "AttributeType": "S"
+           }
+       ],
+       "ProvisionedThroughput": {
+           "NumberOfDecreasesToday": 0,
+           "WriteCapacityUnits": 200,
+           "LastIncreaseDateTime": 1488414305.281,
+           "ReadCapacityUnits": 250,
+           "LastDecreaseDateTime": 1484958930.652
+       },
+       "TableSizeBytes": 4115597,
+       "TableName": "plans.items",
+       "TableStatus": "ACTIVE",
+       "KeySchema": [
+           {
+               "KeyType": "HASH",
+               "AttributeName": "user_id+plan_create_time"
+           },
+           {
+               "KeyType": "RANGE",
+               "AttributeName": "key"
+           }
+       ],
+       "ItemCount": 2278,
+       "CreationDateTime": 1470079516.757
+   }
+}

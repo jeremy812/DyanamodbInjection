@@ -1,0 +1,1 @@
+{"definitions": {"plans.items": {"properties": {"user_id+plan_create_time": {"unique": true}, "key": {"unique": true}}}}, "plan": {}, "export": {"format": "json"}}
